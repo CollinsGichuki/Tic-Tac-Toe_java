@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+   <TextView
+       android:id="@+id/welcome_tv"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="15dp"
+       android:text="Choose your game"
+       android:textAllCaps="true"
+       android:textSize="25sp"
+       android:fontFamily="casual"
+       android:textColor="#000000"
+       android:paddingTop="25dp"/>
+    <TextView
+        android:id="@+id/beginner_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-easy"
+        android:textAllCaps="true"
+        android:layout_marginLeft="35dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/welcome_tv"
+        android:fontFamily="casual"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/singlePlayer_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Single Player"
+        android:textSize="25sp"
+        android:layout_below="@+id/beginner_tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+    <Button
+        android:id="@+id/multiplayer_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="multiplayer"
+        android:textSize="25sp"
+        android:layout_below="@+id/singlePlayer_1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+
+    <TextView
+        android:id="@+id/difficultFour_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-difficult"
+        android:fontFamily="casual"
+        android:textAllCaps="true"
+        android:layout_marginLeft="35dp"
+        android:layout_below="@id/multiplayer_1"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/singlePlayer_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Single player"
+        android:textSize="25sp"
+        android:layout_below="@+id/difficultFour_tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+    <Button
+        android:id="@+id/multiplayer_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="multiplayer"
+        android:textSize="25sp"
+        android:layout_below="@+id/singlePlayer_2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+
+
+</RelativeLayout>
