@@ -14,25 +14,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //This is where/how the points will be displayed
         setContentView(R.layout.activity_main);
-        Button button_3 = (Button) findViewById(R.id.singlePlayer_1);
-        button_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivity4();
-            }
-        });
         Button button_1 = (Button) findViewById(R.id.multiplayer_1);
         button_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openActivity2();
-            }
-        });
-        Button button_4 = (Button) findViewById(R.id.singlePlayer_2);
-        button_4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivity5();
             }
         });
         Button button_2 = (Button) findViewById(R.id.multiplayer_2);
@@ -50,14 +36,6 @@ public class MainActivity extends AppCompatActivity {
     public void openActivity3(){
         Intent b = new Intent(this, Activity3.class);
         startActivity(b);
-    }
-    public void openActivity4(){
-        Intent c = new Intent(this, Activity4.class);
-        startActivity(c);
-    }
-    public void openActivity5(){
-        Intent d = new Intent(this, Activity5.class);
-        startActivity(d);
     }
 }
 
